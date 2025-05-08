@@ -1,0 +1,62 @@
+body,
+body * {
+    box-sizing: border-box;/* turinio plotis AUTOMATISKAI PASISKAICIUOJA VISIEMS ELEMENTAMS */
+    margin:0; /* jokie elementai neatsistuminetu vienas nuo kito*/
+    padding:0; /* kad nebutu jokio issiputimo */
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  
+  .logo {
+    height: 40px;
+  }
+  .logo-white {
+    height: 60px;
+    margin-bottom: 30px;
+  }
+  
+  footer {
+    /* color: rgba(255, 255, 255, 0.8); */
+    color: #ffffffcd;
+  }
+  footer a {
+    color: #fff;
+  }
+  
+
+.main-title{
+font-size: 50px;
+text-transform: uppercase;
+color: black;
+}
+.main-description{
+  font-size: 20px;
+  color: grey;
+
+}
+.section-title{
+  font-size: 25px;
+  color:black;
+
+}
+.section-description{
+font-size: 17px;
+line-height: 25px;
+color: grey;
+
+}
+.section-description a{
+  color: red;
+  text-decoration: none;
+}
+.text-trio {
+  display: flex;
+  gap: 0 30px;
+}
+@media(max-width:700px){
+  .text-trio{
+    flex-direction: column;
+  
+  }
+}
