@@ -7,7 +7,7 @@
 }
 .mouse::after{
     content:"";
-    display: flex;
+    display: block;
     width: 0.2em;
     height: 0.4em;
     margin-left: 0.85em;
