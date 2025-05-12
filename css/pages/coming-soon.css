@@ -23,7 +23,33 @@ body{
   footer a {
     color: #fff;
   }
-  
+  .socials{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:0.5rem;
+   padding: 1rem;
+    border-bottom: 0.125rem solid #fff;
+    margin-bottom: 30px;
+   
+  }
+
+  .socials a{
+   width: 2.6rem;
+   height: 2.6rem;
+   border-radius: 50%;
+   text-decoration: none;
+   display: inline-block;
+   color:black;
+   text-align:center;
+   text-align: center;
+   
+  }
+  .socials :hover{
+    background-color: white;
+
+  }
 
 .main-title{
 font-size: 50px;
