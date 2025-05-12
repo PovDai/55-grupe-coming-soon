@@ -86,3 +86,11 @@ color: grey;
   
   }
 }
+.hero{
+  background-image: url('../../pic/view-schuman-bridge-by-night-lyon-france-europe_268835-1080.avif');
+  background-size: cover;  /* Užpildo visą ekraną, išlaikant proporcijas */
+  background-repeat: no-repeat;  /* Neleidžia kartoti paveikslėlio */
+  background-position: center center;  /* Centruoja paveikslėlį */
+  background-attachment: fixed; 
+  height: 100vh;
+}
