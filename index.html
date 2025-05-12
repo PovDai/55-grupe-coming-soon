@@ -15,12 +15,13 @@
     <link rel="stylesheet" href="./css/components/layout.css">
     <link rel="stylesheet" href="./css/components/clock.css">
     <link rel="stylesheet" href="./css/components/mouse.css">
+    <link rel="stylesheet" href="./css/components/progress-bar.css">
 </head>
 
 <body>
     <header class="container bg-blue">
         <div class="row-short">
-            <img src="./pic/logo_naujas.webp" alt="Logo">
+            <img class="logo" src="./img/logo.png" alt="Logo">
             <h1 class="main-title">Coming soon</h1>
             <p class="main-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima unde necessitatibus nulla debitis suscipit quae dignissimos aspernatur, fuga ab perferendis?</p>
             <div class="clock">
@@ -38,33 +39,57 @@
                 </div>
                 <div class="time">
                     <div class="value">39</div>
-                    <div class="label">seconds</div>
+                    <div class="label">Seconds</div>
                 </div>
             </div>
-            <div class="mouse">
-
-            </div>
-
+            <div class="mouse"></div>
         </div>
     </header>
 
     <main class="container">
         <div class="row">
             <div class="column">
-                <h class="section-title">About startup</h2>
-                <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio molestias <a href="#">Matrox</a> tenetur qui repellendus maxime, aliquid possimus id quisquam amet iusto reiciendis, eos saepe consequuntur dolor corrupti exercitationem consectetur hic sequi!</p>
+                <h2 class="section-title">About startup</h2>
+                <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio molestias tenetur qui repellendus maxime, aliquid possimus id quisquam amet iusto reiciendis, <a href="#">Matrox</a> consequuntur dolor corrupti exercitationem consectetur hic sequi!</p>
+                <div class="progress-bar">
+                    <div class="top">
+                        <div>UX design</div>
+                        <div>90%</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="bar"></div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <div class="top">
+                        <div>Web design</div>
+                        <div>87%</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="bar" style="width: 87%;"></div>
+                    </div>
+                </div>
+                <div class="progress-bar">
+                    <div class="top">
+                        <div>Web development</div>
+                        <div>15%</div>
+                    </div>
+                    <div class="bottom">
+                        <div class="bar" style="width: 15%;"></div>
+                    </div>
+                </div>
             </div>
             <div class="column">
                 <h2 class="section-title">Have any question?</h2>
-                <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum beatae<a href="mailto:mano.pastas@gmail.lt">mano.pastas@gmail.lt</a> vel at corrupti architecto quia, id quod repellendus quos totam neque cupiditate nesciunt suscipit animi consequatur, ducimus quo, molestias quae?</p>
-            
+                <p class="section-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum beatae vel at corrupti architecto <a href="mailto:mano@pastas.lt">mano@pastas.lt</a> totam neque cupiditate nesciunt suscipit animi consequatur, ducimus quo, molestias quae?</p>
             </div>
+        </div>
     </main>
 
     <footer class="container bg-blue">
         <div class="row-short">
-            <img src="./pic/logo.webp" alt="Logo">
-            <div class="text-trio" >
+            <img class="logo-white" src="./img/logo-white.png" alt="Logo">
+            <div class="text-trio">
                 <p>Copyright &copy; 2025 <a href="#">Matrox</a></p>
                 <p>All rights reserved</p>
                 <p>Designed by <a href="#">TrendyTheme</a></p>
