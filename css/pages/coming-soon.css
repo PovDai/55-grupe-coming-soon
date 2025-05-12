@@ -29,7 +29,6 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     gap:0.5rem;
-   padding: 1rem;
     border-bottom: 0.125rem solid #fff;
     margin-bottom: 30px;
    
@@ -41,14 +40,15 @@ body{
    border-radius: 50%;
    text-decoration: none;
    display: inline-block;
-   color:black;
+   color:#fff;
    text-align:center;
-   text-align: center;
+   transition: all 0.3s;
    
   }
-  .socials :hover{
+  .socials a:hover{
     background-color: white;
-
+    color:blue;
+    
   }
 
 .main-title{
