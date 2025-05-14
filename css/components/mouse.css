@@ -1,5 +1,5 @@
 .mouse{
-   font-size: 15px; 
+   font-size: 0.9rem; 
    width: 2em;
    height: 3em;
    border: 0.2px solid white;
@@ -13,6 +13,31 @@
     margin-left: 0.85em;
     margin-top:0.5em ;
     background-color: white;
-    border-radius: 0.1em;
+    border-radius: 0.15em;
+    background-image: url('../../pic/peliukas.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: rotate(0deg);
 
+    animation-name:movement;
+    animation-duration: 5s;
+    animation-iteration-count: infinite ;
+    animation-direction: reverse;
+    animation-play-state: running;
+
+}
+
+@keyframes movement {
+    0% {margin-top:0.5em;
+    opacity:1;
+background-color:white;
+    width: 0.8em;
+    height: 0.8em;        }
+
+    50%{ opacity:1}
+
+    100% {margin-top:1.5em;
+    opacity:0;
+transform: rotate(360deg);}
 }
