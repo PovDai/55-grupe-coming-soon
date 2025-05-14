@@ -1,3 +1,7 @@
+html{
+  scroll-behavior: smooth;
+}
+
 .bg-blue {
   background-color: #03a9f5;
 }
@@ -107,4 +111,24 @@ footer a {
   .text-trio {
     flex-direction: column;
   }
+}
+footer .row {
+  position: relative;
+}
+
+.back-to-top{
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  top:-2.8em;
+  right:-0.7em;
+  background-color:red;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.8em;
+  color: white;
+  font-size: 2rem;
+  box-shadow: 0 0.2em 0.4em #0006;
+  text-decoration: none;
+
 }
