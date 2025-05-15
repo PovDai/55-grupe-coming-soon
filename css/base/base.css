@@ -1,3 +1,16 @@
+:root{
+    --color-primary:#03a9f5;/* var(--color-primary)     */ 
+    --color-secondary:#eb1e61;/* var(--color-secondary)   */
+    --shadow: 0 0.2rem 0.4rem #0006;  /* var(--shadow)  */ 
+
+}
+@font-face{
+    font-family:Roboto;
+    src: url(../../fonts/Roboto-original/static/Roboto-Black.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
 body,
 body * {
     box-sizing: border-box;/* turinio plotis AUTOMATISKAI PASISKAICIUOJA VISIEMS ELEMENTAMS */
